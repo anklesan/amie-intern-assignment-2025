@@ -126,7 +126,6 @@ Submit **one** of the following:
 | 🗓️ Multi-day Forecast        | Let user choose number of days          |
 | 🧠 Tone Modes                | “Professional”, “Friendly”, “Funny”     |
 | 🌐 Streamlit UI              | Deploy as a tiny web app                |
-no
 ---
 
 ## 🧠 Evaluation Criteria
@@ -180,7 +179,6 @@ Requests (HTTP client): https://docs.python-requests.org/en/latest/
 
 Pandas (dataframes): https://pandas.pydata.org/
 
-Feel Free 
 
 🧡 Have fun combining live data with LLM reasoning!
 
