@@ -48,15 +48,29 @@ You will create two collaborating agents:
 
 ### 🧠 Agent 2: LLM-Based Reasoning
 
-Use an **open-source LLM** from Hugging Face:
+This agent uses an **open-source LLM from Hugging Face** to perform reasoning tasks.
 
-| Model Name              | Description                              | How to Use                     |
-|--------------------------|------------------------------------------|--------------------------------|
-| `google/flan-t5-small`   | Lightweight instruction-following model  | Hugging Face `pipeline`        |
-| `facebook/bart-large-cnn`| Great for summarization and reasoning    | Hugging Face `pipeline`        |
-| `tiiuae/falcon-rw-1b`    | Chat-style general-purpose open model    | Hugging Face `transformers`    |
+| Example Model              | Description                                  | Usage Method                  |
+|----------------------------|----------------------------------------------|-------------------------------|
+| `google/flan-t5-small`     | Lightweight, instruction-tuned model         | Hugging Face `pipeline`       |
+| `facebook/bart-large-cnn`  | Good for summarization, limited reasoning    | Hugging Face `pipeline`       |
+| `tiiuae/falcon-rw-1b`      | Basic chat-style model with limited depth    | Hugging Face `transformers`   |
 
-📦 All of these can run inside **Google Colab** with no login, no payment, and no setup.
+📦 These models can all run inside **Google Colab**:
+- ✅ No login required  
+- ✅ No payment necessary  
+- ✅ Minimal setup
+
+> ⚠️ **Important:**  
+> You are *not* limited to the models listed above.  
+> You may use **any open-source model** from Hugging Face that performs better at reasoning — for example:
+> - `mistralai/Mistral-7B`
+> - `microsoft/phi-2`
+> - `meta-llama/Llama-2-7b-chat-hf` (requires Meta license agreement)
+> - Or any other open-source model you can run locally or in Colab.
+
+✅ Just make sure your code is **reproducible** and **well-documented**.
+
 
 ---
 
